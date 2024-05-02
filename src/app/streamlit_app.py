@@ -7,13 +7,13 @@ from backend.solution import answer_user_question
 
 
 
-st.set_page_config(page_title="GenAI Q&A", layout="centered")
+st.set_page_config(page_title="Title", layout="centered")
 
 
-st.header('**Diriyah Gen-AI**')
+st.header('**Title**')
 col1, col2 = st.columns(2, gap='large')
 with col1:
-    col1.write("**Only One Diriyah**")
+    col1.write("**SubTitle**")
 #with col2:
 #    col2.write("**انا هنا للرد علي اسألتكم**")
 
